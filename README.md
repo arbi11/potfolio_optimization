@@ -1,8 +1,8 @@
     # potfolio_optimization
-Collection of different strategies for optimal strategies using technical data (price-volume) and fundamental data
+Collection of different ML based strategies for optimal strategies using technical data (price-volume) and fundamental data
 
 # Description
-This repository contains various Jupyter notebooks focused on different aspects of financial data analysis, machine learning models, and data processing techniques. Below is a brief description of each notebook:
+This repository contains various Jupyter notebooks focused on different aspects of financial data analysis, machine learning models/techniques (GNN, LLM, RAG, KG), and data processing techniques. Below is a brief description of each notebook:
 
 ## Getting Started
 To get started with these notebooks, clone the repository and ensure you have the necessary dependencies installed. Each notebook may have specific requirements, so please refer to the comments within each notebook for detailed instructions.
@@ -58,7 +58,7 @@ This project is licensed under the MIT License
     * Tested several spatio-temporal GNNs with ime-series data
         * Focus on the the edge relationships between the ETF nodes to understand inter-dependency
         * Also explore the dynamic nature of the graphs with ETFs egde characteristics varying at different time periods.
-    * Extended the work on LLM through populating a knowledge graph and then using it for RAG
+    * Extended the work on LLM through populating a Knowledge Graph (KG) and then using it for RAG
 
 * * **Oct 2024**
     * Working on combining the knowledge graph and inference from GNN through a LLM (multi-model knowledge distilation).
