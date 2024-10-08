@@ -44,8 +44,23 @@ This project is licensed under the MIT License
         * Mean Reversion
         * 5 factor pipeline analysis
 
-* **Aug 2024** - Worked on `backtest_aug24.ipynb`
+* **Aug 2024** - Worked on `backtest_aug24.ipynb` & `pdf_analyzer.ipynb`
     * Explored VectorBT and backtesting.py
     * Used Binance BTC data.
     * Also used YFC modeule in vbt to realtime download data
     * Generated heatmap based on RSI entries (~35) and exit (~70)
+    * Utilized Large Language Model (Llama 3.1) to categorize personal expense transactions.
+        * Additionally, employed the same LLM for Retrieval-Augmented Generation (RAG) using personal documents.
+        * Used Ollama for model orchetration.
+ 
+* * **Sep 2024**
+    * Explored Graph Neural networks (GNN) for Top 10 ETFs in NYSE.
+    * Tested several spatio-temporal GNNs with ime-series data
+        * Focus on the the edge relationships between the ETF nodes to understand inter-dependency
+        * Also explore the dynamic nature of the graphs with ETFs egde characteristics varying at different time periods.
+    * Extended the work on LLM through populating a knowledge graph and then using it for RAG
+
+* * **Oct 2024**
+    * Working on combining the knowledge graph and inference from GNN through a LLM (multi-model knowledge distilation).
+    * Improving the spatio-temporal GNN
+    * Exploring Llama 3.2
