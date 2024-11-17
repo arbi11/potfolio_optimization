@@ -53,18 +53,19 @@ This project is licensed under the MIT License
         * Additionally, employed the same LLM for Retrieval-Augmented Generation (RAG) using personal documents.
         * Used Ollama for model orchetration.
  
-* * **Sep 2024**
+* **Sep 2024**
     * Explored Graph Neural networks (GNN) for Top 10 ETFs in NYSE.
     * Tested several spatio-temporal GNNs with ime-series data
         * Focus on the the edge relationships between the ETF nodes to understand inter-dependency
         * Also explore the dynamic nature of the graphs with ETFs egde characteristics varying at different time periods.
     * Extended the work on LLM through populating a Knowledge Graph (KG) and then using it for RAG
 
-* * **Oct 2024**
+* **Oct 2024**
     * Working on combining the knowledge graph and inference from GNN through a LLM (multi-model knowledge distilation).
     * Improving the spatio-temporal GNN
     * Exploring Llama 3.2
-* * **Nov 2024**
+
+* **Nov 2024**
     * Extarcted embdeded text from podcast and yt videos
     * Exploring Llama 3.2 Multi-modal LLMs - 11B
     * Building LLM from scratch
