@@ -8,7 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-notebooks/*/
+notebooks/chroma*/
 addn_notebooks/
 logs/
 notes/
