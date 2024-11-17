@@ -64,3 +64,7 @@ This project is licensed under the MIT License
     * Working on combining the knowledge graph and inference from GNN through a LLM (multi-model knowledge distilation).
     * Improving the spatio-temporal GNN
     * Exploring Llama 3.2
+* * **Nov 2024**
+    * Extarcted embdeded text from podcast and yt videos
+    * Exploring Llama 3.2 Multi-modal LLMs - 11B
+    * Building LLM from scratch
